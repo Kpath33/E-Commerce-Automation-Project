@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select; // Provides support for handling d
 public class AddToCart {
     // Declare a ChromeDriver instance to interact with the browser
     ChromeDriver driver;
+     
 
     // Define the URL of the inventory page
     String url = "https://www.saucedemo.com/inventory.html";
