@@ -31,7 +31,7 @@ public class AddToCart {
     // Method to perform the add-to-cart functionality
     public Boolean PerformAddToCartFunctionality(String targetProductName) throws InterruptedException {
         // Locate all product name elements on the page by their XPath
-        List<WebElement> productNameElements = this.driver.findElements(By.xpath("//div[@class='inventory_item_name ']"));
+        List<WebElement> productNameElements = this.driver.findElements(By.xpath("//div[@class='inventory_item_name']"));
 
         // Loop through the product name elements to find the target product
         for (WebElement productNameElement : productNameElements) {
